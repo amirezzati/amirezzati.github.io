@@ -11410,7 +11410,7 @@ p.lead {
 section.resume-section {
   display: flex;
   align-items: center;
-  justify-content: right;
+  /* justify-content: right; */
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 5rem;
