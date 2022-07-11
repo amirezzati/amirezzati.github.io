@@ -11436,7 +11436,7 @@ section.resume-section .resume-section-content {
   font-size: 1.3rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 568px) {
   section.resume-section {
     min-height: 100vh;
   }
