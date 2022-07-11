@@ -11429,6 +11429,13 @@ section.resume-section .resume-section-content {
   font-family: var(--bs-font-sans-serif);
 }
 
+
+.fontmono {
+  font-family: var(--bs-font-monospace);
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
