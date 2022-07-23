@@ -227,12 +227,22 @@ sup {
   top: -0.5em;
 }
 
+.subaward a {
+  color: rgb(var(--bs-black-rgb));
+  text-decoration: none;
+}
+
 a {
   color: rgb(var(--bs-cyan-rgb));
   text-decoration: none;
 }
+
+.subaward a:hover {
+  color: rgb(var(--bs-cyan-rgb));
+}
+
 a:hover {
-  color: rgb(var(--bs-dark));
+  color: rgb(var(--bs-dark-rgb));
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -11421,9 +11431,15 @@ section.resume-section .resume-section-content {
   width: 100%;
 }
 
+.award .subaward a {
+  font-size: medium;
+}
+
+
 .award a {
   font-size: large;
 }
+
 
 .ordinaryfont {
   font-family: var(--bs-font-sans-serif);
