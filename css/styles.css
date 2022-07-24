@@ -42,6 +42,9 @@
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
   --bs-cyan-rgb: 0,139,139;
+  --bs-midnightblue-rgb: 25,25,112;
+  --bs-cadetblue-rgb: 95,158,160;
+  --bs-steelblue-rgb: 70,130,180;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -233,7 +236,7 @@ sup {
 }
 
 a {
-  color: rgb(var(--bs-cyan-rgb));
+  color: rgb(var(--bs-steelblue-rgb));
   text-decoration: none;
 }
 
@@ -11433,11 +11436,13 @@ section.resume-section .resume-section-content {
 
 .award .subaward a {
   font-size: medium;
+  font-weight: 300;
 }
 
 
 .award a {
   font-size: large;
+  font-weight: 700;
 }
 
 
